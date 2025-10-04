@@ -27240,6 +27240,43 @@
     "url": "commonhealth.com.tw",
     "lang": "zh-TW"
   },
+  "conservative.ca": {
+    "routes": {
+      "/news": {
+        "path": "/news",
+        "categories": [
+          "government"
+        ],
+        "example": "/conservative/news",
+        "parameters": {},
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "www.conservative.ca/news/",
+              "www.conservative.ca/"
+            ]
+          }
+        ],
+        "name": "News",
+        "maintainers": [],
+        "url": "www.conservative.ca/news/",
+        "description": "News from Conservative Party of Canada",
+        "location": "news.ts",
+        "module": "() => import('@/routes/conservative.ca/news.ts')"
+      }
+    },
+    "name": "Conservative Party of Canada",
+    "url": "conservative.ca",
+    "lang": "en"
+  },
   "consumer": {
     "routes": {
       "/:category?/:language?/:keyword?": {

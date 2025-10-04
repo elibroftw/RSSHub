@@ -11708,6 +11708,20 @@
       }
     ]
   },
+  "conservative.ca": {
+    "_name": "Conservative Party of Canada",
+    "www": [
+      {
+        "title": "News",
+        "docs": "https://docs.rsshub.app/routes/government",
+        "source": [
+          "/news/",
+          "/"
+        ],
+        "target": "/conservative.ca/news"
+      }
+    ]
+  },
   "consumer.org.hk": {
     "_name": "消费者委员会",
     ".": [
