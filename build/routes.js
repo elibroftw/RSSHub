@@ -65347,7 +65347,8 @@ export default {
           "/sfw/post/popular_recent/:period?"
         ],
         "categories": [
-          "picture"
+          "picture",
+          "popular"
         ],
         "view": 2,
         "example": "/konachan/post/popular_recent/1d",
@@ -65406,7 +65407,8 @@ export default {
           "/sfw/post/popular_recent/:period?"
         ],
         "categories": [
-          "picture"
+          "picture",
+          "popular"
         ],
         "view": 2,
         "example": "/konachan/post/popular_recent/1d",
