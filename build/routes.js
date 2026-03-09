@@ -16446,8 +16446,7 @@ export default {
           "embed": "默认为开启内嵌视频, 任意值为关闭"
         },
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "location": "video-all.ts",
         "module": () => import('@/routes/bilibili/video-all.ts')
@@ -47477,8 +47476,7 @@ export default {
       "/miit/wjgs": {
         "path": "/miit/wjgs",
         "categories": [
-          "government",
-          "popular"
+          "government"
         ],
         "example": "/gov/miit/wjgs",
         "parameters": {},
@@ -118225,8 +118223,7 @@ export default {
       "/keyword/:keyword/:routeParams?": {
         "path": "/keyword/:keyword/:routeParams?",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "view": 1,
         "example": "/weibo/keyword/RSSHub",
